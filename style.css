@@ -1,0 +1,710 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 15px !important;
+
+}
+
+@font-face {
+    font-family: "neo sans pro black";
+    src: url("/fonts/359095660-neosansproblack.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro black it";
+    src: url("/fonts/359095666-neosansproblackit.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro bold";
+    src: url("fonts/359095669-neosansprobold.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro bold it";
+    src: url("fonts/359095674-neosansproboldit.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro italic";
+    src: url("fonts/359095678-neosansproitalic.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro light";
+    src: url("fonts/359095683-neosansprolight.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro light it";
+    src: url("fonts/359095684-neosansprolightit.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro med it";
+    src: url("fonts/359095685-neosanspromedit.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro medium";
+    src: url("fonts/359095689-neosanspromedium.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro regular";
+    src: url("fonts/359095696-neosansproregular.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro ult it";
+    src: url("fonts/359095700-neosansproultit.OTF");
+}
+
+@font-face {
+    font-family: "neo sans pro ultra";
+    src: url("fonts/359095704-neosansproultra.OTF");
+}
+
+@font-face {
+    font-family: "arial";
+    src: url("fonts/359095760-arial.ttf");
+}
+
+@font-face {
+    font-family: "arial bd";
+    src: url("fonts/359095768-arialbd.ttf");
+}
+
+p {
+    font-family: "neo sans pro regular";
+}
+
+/* section1 */
+.personal-details {
+    background-color: #fdd800;
+    font-size: 16px;
+}
+
+.personal-details ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 2%;
+}
+
+.personal-details ul li {
+    margin-right: 1%;
+}
+
+.header-logo-img img {
+    /* width: 250px; */
+    margin-left: 3%;
+
+}
+
+/* section2 */
+.second-section {
+    background-image: url(img/0/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.parent-college-image {
+    width: 50%;
+    padding-top: 10%;
+}
+
+.collge-image h1 {
+    font-family: "neo sans pro black";
+    font-size: 4rem;
+    color: #4a1f8c;
+}
+
+.college-read-more-btn a {
+    background-color: #fdd800;
+    padding: 10px 35px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.collge-image,
+.college-read-more-btn {
+    margin-left: 1%;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.admission-section,
+.work-culture {
+    background-image: url(img/doodle.png);
+    min-height: 100vh;
+}
+
+.college-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.college-icon img {
+    opacity: 0.3;
+}
+
+.college-parent-section {
+    margin: 0 20%;
+}
+
+.college-content {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.college-content h1 {
+    font-size: 3.5rem;
+    color: #4B0082;
+
+}
+
+.college-content span {
+    color: #FFD700;
+}
+
+.horizontal-line {
+    margin: 0 auto;
+    text-align: center;
+    width: 70px;
+    height: 8px;
+    background: linear-gradient(to right, #5d2fa1, #f7b801);
+}
+
+.section3-para p {
+    font-size: 2rem;
+    padding: 0 5%;
+}
+
+.college-qualities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.college-specialities {
+    background-color: #fdd800;
+    display: block;
+    width: 35%;
+    padding: 2%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+
+}
+
+.college-specialities p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.register-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.register-now-content {
+    width: 30%;
+    background-color: #4a1f8c;
+    color: #fdd800;
+    text-align: center;
+    border-radius: 10px;
+    line-height: normal;
+    line-height: 1;
+}
+
+.register-now-content p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.select-reason-Scolage {
+    margin-top: 5% !important;
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom, #ffffff, #d9bef3);
+}
+
+.reason-scolage-main {
+    margin: 0 20%;
+}
+
+.college-content {
+    text-align: center;
+}
+
+.scolage-quote h2 {
+    font-style: italic;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.courses-details {
+    padding: 0 5%;
+}
+
+.courses-details p {
+    font-size: 20px;
+    color: #4203a0;
+    text-align: center;
+}
+
+.courses-image-logos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10%;
+}
+
+.course-logo-one {
+    text-align: center;
+    margin-right: 4%;
+    margin-top: 4%;
+}
+
+.course-logo-one p {
+    font-size: 20px;
+    padding: 4%;
+}
+
+.second-class {
+    margin-top: 5%;
+}
+
+/* section4 */
+.work-culture {
+    padding: 0 20%;
+    margin-bottom: 50px;
+}
+
+.college-work h1 {
+    font-size: 3rem;
+    color: #4203a0;
+    text-align: center;
+}
+
+.college-work p {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.third-line {
+    margin-bottom: 50px;
+}
+
+.parent-work-style {
+    display: flex;
+    flex-direction: column;
+    gap: 35%;
+}
+
+.work-style-images {
+    display: flex;
+    align-items: center;
+}
+
+.work-style-images img,
+.work-style-images-one img,
+.work-style-images-two img {
+    width: 50%;
+}
+
+.work-style-images-one {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.step2-work{
+    background-color: #fddd5b !important;
+}
+
+.work-style-images-two {
+    display: flex;
+    align-items: center;
+}
+
+.work-style-steps {
+    background-color: #ead8ff;
+    padding: 10px;
+
+    h2 {
+        font-size: 2.5rem;
+        color: #5d2fa1;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+.work-style-steps-one {
+    background-color: #ead8ff;
+    padding: 10px;
+
+    h2 {
+        font-size: 2.5rem;
+        color: #5d2fa1;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+.work-style-steps-two {
+    background-color: #ead8ff;
+    padding: 10px;
+
+    h2 {
+        font-size: 2.5rem;
+        color: #5d2fa1;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+}
+
+/* section5 */
+.work-qualities {
+    background: linear-gradient(to bottom, #ffffff, #d9bef3);
+    padding: 0 20%;
+    padding-bottom: 50px;
+}
+
+.parent-quality-image {
+    display: flex;
+}
+
+.child-quality-image {
+    text-align: center;
+
+    p {
+        font-size: 18px;
+        color: #4a1f8c;
+    }
+}
+
+.child-quality-image img {
+    background-color: #4203a0;
+    border-radius: 50%;
+    padding: 5%;
+}
+
+.work-second-class {
+    margin-left: 100px;
+}
+
+/* section6 */
+.wide-range-colleges {
+    background-image: url(img/doodle.png);
+    padding: 0 20%;
+    padding-bottom: 8%;
+}
+
+.college-name-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.second-register {
+    margin-top: 8%;
+}
+
+/* section7 */
+.feedback-persons {
+    background: linear-gradient(to bottom, #ffffff, #d9bef3);
+    padding: 0 20%;
+    padding-bottom: 100px;
+}
+
+.feedback-content {
+    padding: 0;
+}
+
+.feedback-persons-name {
+    background-color: white;
+    max-width: 600px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.feedback-persons-name-parent {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-persons-name p {
+    font-size: 1.5rem;
+    line-height: normal;
+    color: #5d2fa1;
+    font-weight: bold;
+}
+
+footer {
+    background: linear-gradient(rgba(255, 255, 255, 0.3) 80%,
+            rgba(95, 37, 159, 0.8) 20%), url(img/doodle.png);
+    padding-bottom: 0;
+}
+
+.student-image {
+    margin-left: 1%;
+}
+
+.student-image img {
+    width: 80%;
+    margin-left: 4%;
+}
+
+.all-student-details {
+    display: flex;
+    justify-content: center;
+
+}
+
+.admission-form {
+    margin-top: 5%;
+    max-width: 100%;
+}
+
+form {
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+    max-width: 100%;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input[type=text] {
+    background-color: rgb(240, 238, 238);
+    display: block;
+    margin: 15px;
+    border: none;
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 0.5px solid rgb(235, 233, 233);
+}
+
+select {
+    background-color: rgb(240, 238, 238);
+    display: block;
+    margin: 15px;
+    border: none;
+    padding: 5px;
+    width: 83%;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: 0.5px solid rgb(235, 233, 233);
+
+}
+
+button {
+    background-color: #f7b801;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: none;
+    display: block;
+    margin: 20px auto;
+}
+
+.discount-tag {
+    text-wrap: wrap;
+}
+
+.last-footer {
+    margin: 15px;
+}
+
+@media screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .personal-details ul {
+        padding: 6%;
+    }
+
+    .personal-details ul li {
+        display: none;
+    }
+
+    .header-logo-img img {
+        max-width: 250px;
+        margin: 0 10%;
+
+    }
+
+    .parent-college-image {
+        padding: 5%;
+        padding: 0 10%;
+        width: 80%;
+    }
+
+    .collge-image h1 {
+        font-size: 2rem;
+        color: #4a1f8c;
+    }
+
+    .second-section {
+        background: none;
+        height: 0%;
+    }
+
+    .mobile-img {
+        display: block;
+        margin: 5%;
+        max-width: 700px;
+    }
+
+    .mobile-img img {
+        width: 100%;
+    }
+
+    .college-content h1 {
+        font-size: 2rem;
+    }
+
+    .college-qualities {
+        display: block;
+    }
+
+    .college-specialities {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .college-specialities p {
+        padding: 0 4%;
+    }
+
+    .register-now-content {
+        width: 90%;
+    }
+
+    .register-now-content p {
+        font-size: 20px;
+
+    }
+
+    .section3-para p {
+        padding: 0%;
+    }
+
+    .register-parent {
+        margin: 0 auto;
+    }
+
+    .scolage-quote h2 {
+        font-size: 2rem;
+    }
+
+    .courses-image-logos {
+        display: block;
+    }
+
+    .work-style-images {
+        margin-top: 5%;
+    }
+
+    .work-style-images,
+    .work-style-images-one,
+    .work-style-images-two {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .work-style-images img,
+    .work-style-images-one img,
+    .work-style-images-two img {
+        width: 100%;
+        margin-bottom: -1%;
+    }
+
+    .work-style-steps,
+    .work-style-steps-one,
+    .work-style-steps-two {
+        padding: 3%;
+    }
+
+    .cl-two h2 {
+        font-size: 1.5rem;
+
+    }
+
+    .cl-two p {
+        font-size: 1.5rem;
+    }
+
+    .parent-quality-image {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .work-second-class {
+        margin-left: 0;
+    }
+
+    .college-name-images {
+        display: block;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .second-register {
+        margin-top: 8%;
+    }
+
+    .all-student-details {
+        display: block;
+        margin: 0 auto;
+        width: 300px;
+        padding-bottom: 5%;
+    }
+
+    .student-image {
+        width: 80%;
+    }
+
+    form {
+        max-width: 300px;
+        margin-top: 0;
+    }
+
+
+
+
+}
